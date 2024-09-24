@@ -40,7 +40,4 @@ public class CompanyContrioller {
     public ResponseEntity<Boolean> delete(@PathVariable long id){
         return new ResponseEntity<>(companyService.deleteById(id), HttpStatus.OK);
     }
-
-
-
 }
